@@ -1,0 +1,188 @@
+2023-12-19 01:23:36 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-19 02:36:49 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-19 03:41:25 - ERROR - Error occurred: Bad password
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 323, in _vk_login
+    raise BadPassword('Bad password')
+vk_api.exceptions.BadPassword: Bad password
+
+2023-12-19 03:41:25 - ERROR - Error occurred: [5] User authorization failed: no access_token passed.
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 71, in download_some_numb_posts
+    response = self.__tools.get_all(method='wall.get', max_count=max_count, values={'owner_id': group_id},
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\tools.py", line 108, in get_all
+    items = list(
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\tools.py", line 64, in get_all_iter
+    response = vk_get_all_items(
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\execute.py", line 61, in __call__
+    return vk.method(
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [5] User authorization failed: no access_token passed.
+
+2023-12-19 03:41:35 - ERROR - Error occurred: Bad password
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 323, in _vk_login
+    raise BadPassword('Bad password')
+vk_api.exceptions.BadPassword: Bad password
+
+2023-12-19 03:41:35 - ERROR - Error occurred: [5] User authorization failed: no access_token passed.
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 71, in download_some_numb_posts
+    response = self.__tools.get_all(method='wall.get', max_count=max_count, values={'owner_id': group_id},
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\tools.py", line 108, in get_all
+    items = list(
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\tools.py", line 64, in get_all_iter
+    response = vk_get_all_items(
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\execute.py", line 61, in __call__
+    return vk.method(
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [5] User authorization failed: no access_token passed.
+
+2023-12-19 04:55:20 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-19 04:59:42 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-19 05:01:13 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-19 05:06:00 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-19 05:10:45 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-19 05:13:53 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-19 05:13:54 - ERROR - Error occurred: [15] Access denied: post was not found check post_id param
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 38, in __get_comments
+    comments_json = self.__vk.wall.getComments(owner_id=group_id, post_id=post_id, count=count, extended=1)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 737, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [15] Access denied: post was not found check post_id param
+
+2023-12-19 05:14:16 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+

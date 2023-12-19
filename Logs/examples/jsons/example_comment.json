@@ -1,0 +1,81 @@
+{
+  "id": 91694,
+  "from_id": 176656,
+  "date": 1702758496,
+  "text": "105",
+  "post_id": 91690,
+  "owner_id": -30768541,
+  "parents_stack": [],
+  "attachments": [
+    {
+      "type": "sticker",
+      "sticker": {
+        "inner_type": "base_sticker_new",
+        "sticker_id": 57964,
+        "product_id": 1187,
+        "images": [
+          {
+            "url": "https://vk.com/sticker/1-57964-64",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "url": "https://vk.com/sticker/1-57964-128",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "url": "https://vk.com/sticker/1-57964-256",
+            "width": 256,
+            "height": 256
+          },
+          {
+            "url": "https://vk.com/sticker/1-57964-352",
+            "width": 352,
+            "height": 352
+          },
+          {
+            "url": "https://vk.com/sticker/1-57964-512",
+            "width": 512,
+            "height": 512
+          }
+        ],
+        "images_with_background": [
+          {
+            "url": "https://vk.com/sticker/1-57964-64b",
+            "width": 64,
+            "height": 64
+          },
+          {
+            "url": "https://vk.com/sticker/1-57964-128b",
+            "width": 128,
+            "height": 128
+          },
+          {
+            "url": "https://vk.com/sticker/1-57964-256b",
+            "width": 256,
+            "height": 256
+          },
+          {
+            "url": "https://vk.com/sticker/1-57964-352b",
+            "width": 352,
+            "height": 352
+          },
+          {
+            "url": "https://vk.com/sticker/1-57964-512b",
+            "width": 512,
+            "height": 512
+          }
+        ],
+        "is_allowed": true
+      }
+    }
+  ],
+  "thread": {
+    "count": 0,
+    "items": [],
+    "can_post": true,
+    "show_reply_button": true,
+    "groups_can_post": true
+  }
+}

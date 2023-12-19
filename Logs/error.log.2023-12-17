@@ -1,0 +1,1029 @@
+2023-12-17 01:38:10 - ERROR - Error occurred: Bad password
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 27, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 323, in _vk_login
+    raise BadPassword('Bad password')
+vk_api.exceptions.BadPassword: Bad password
+
+2023-12-17 01:52:52 - ERROR - Error occurred: Could not load items: [{'method': 'wall.get', 'error_code': 100, 'error_msg': 'One of the parameters specified was missing or invalid: count not integer'}]
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 39, in download_some_numb_posts
+    wall = self.__tools.get_all('wall.get', {'owner_id': group_id, 'count': count_posts})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\Lib\site-packages\vk_api\tools.py", line 108, in get_all
+    items = list(
+            ^^^^^
+  File "D:\anaconda3\Lib\site-packages\vk_api\tools.py", line 70, in get_all_iter
+    raise VkToolsException(
+vk_api.exceptions.VkToolsException: Could not load items: [{'method': 'wall.get', 'error_code': 100, 'error_msg': 'One of the parameters specified was missing or invalid: count not integer'}]
+
+2023-12-17 02:29:53 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 27, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 02:30:32 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 27, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 02:32:10 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 27, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 02:32:36 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 27, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 02:35:09 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 27, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 02:35:31 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 27, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 03:07:20 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 27, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 03:08:33 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 27, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 04:11:22 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 28, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 04:14:42 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 28, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 04:22:40 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 28, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 04:53:34 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 04:54:44 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:02:08 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:06:23 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:08:07 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:09:18 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:10:01 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:11:26 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:16:20 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:23:34 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:24:25 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:25:27 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+2023-12-17 05:39:51 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+2023-12-17 05:44:16 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:44:40 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+2023-12-17 05:47:08 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:47:30 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:49:39 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:52:44 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 05:55:54 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 06:39:10 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 06:44:30 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 06:47:05 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 06:54:23 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 07:05:44 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 07:09:05 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 07:15:21 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 07:33:34 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 07:40:58 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 07:45:17 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 07:53:19 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 14:43:22 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 14:57:45 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 15:02:56 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 15:08:30 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 15:11:24 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 15:16:15 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 15:20:03 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 15:27:56 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 16:36:24 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 18:27:47 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 18:30:30 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 18:33:19 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 18:35:40 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 29, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 18:53:02 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 18:57:03 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 18:58:27 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 19:03:14 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 19:05:28 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 19:10:11 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 20:55:47 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalysProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\anaconda3\Lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 21:20:32 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 21:20:33 - ERROR - Error occurred: [5] User authorization failed: no access_token passed.
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 65, in download_some_numb_posts
+    response = self.__tools.get_all(method='wall.get', max_count=max_count, values={'owner_id': group_id},
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\tools.py", line 108, in get_all
+    items = list(
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\tools.py", line 64, in get_all_iter
+    response = vk_get_all_items(
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\execute.py", line 61, in __call__
+    return vk.method(
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [5] User authorization failed: no access_token passed.
+
+2023-12-17 21:22:58 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 21:22:58 - ERROR - Error occurred: [5] User authorization failed: no access_token passed.
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 65, in download_some_numb_posts
+    response = self.__tools.get_all(method='wall.get', max_count=max_count, values={'owner_id': group_id},
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\tools.py", line 108, in get_all
+    items = list(
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\tools.py", line 64, in get_all_iter
+    response = vk_get_all_items(
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\execute.py", line 61, in __call__
+    return vk.method(
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [5] User authorization failed: no access_token passed.
+
+2023-12-17 21:31:56 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 21:54:27 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 22:11:55 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 22:17:33 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 22:39:38 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-17 22:44:49 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+

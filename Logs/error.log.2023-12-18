@@ -1,0 +1,174 @@
+2023-12-18 05:44:28 - ERROR - Error occurred: [15] Access denied: post was not found check post_id param
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 38, in __get_comments
+    comments_json = self.__vk.wall.getComments(owner_id=group_id, post_id=post_id, count=count, extended=1)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 737, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [15] Access denied: post was not found check post_id param
+
+2023-12-18 05:45:28 - ERROR - Error occurred: [15] Access denied: post was not found check post_id param
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 38, in __get_comments
+    comments_json = self.__vk.wall.getComments(owner_id=group_id, post_id=post_id, count=count, extended=1)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 737, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [15] Access denied: post was not found check post_id param
+
+2023-12-18 05:47:55 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-18 05:47:56 - ERROR - Error occurred: [15] Access denied: post was deleted
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 38, in __get_comments
+    comments_json = self.__vk.wall.getComments(owner_id=group_id, post_id=post_id, count=count, extended=1)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 737, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [15] Access denied: post was deleted
+2023-12-18 05:52:20 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+2023-12-18 05:54:53 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-18 05:58:50 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-18 06:00:10 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+2023-12-18 06:13:16 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-18 06:27:05 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-18 06:27:07 - ERROR - Error occurred: [15] Access denied: post was not found check post_id param
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 38, in __get_comments
+    comments_json = self.__vk.wall.getComments(owner_id=group_id, post_id=post_id, count=count, extended=1)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 737, in __call__
+    return self._vk.method(self._method, kwargs)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 697, in method
+    raise error
+vk_api.exceptions.ApiError: [15] Access denied: post was not found check post_id param
+2023-12-18 06:29:43 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+2023-12-18 06:36:32 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
+
+2023-12-18 18:41:02 - ERROR - Error occurred: Recaptcha required
+Traceback (most recent call last):
+  File "D:\PythonProjects\SocialAnalyzerProject\VkApp\vk_app.py", line 30, in __auth
+    self.__vk_session.auth()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 187, in auth
+    self._auth_cookies(reauth=reauth)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 207, in _auth_cookies
+    self._vk_login()
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 330, in _vk_login
+    self._pass_twofactor(response)
+  File "D:\PythonProjects\SocialAnalyzerProject\.venv\lib\site-packages\vk_api\vk_api.py", line 380, in _pass_twofactor
+    raise TwoFactorError('Recaptcha required')
+vk_api.exceptions.TwoFactorError: Recaptcha required
